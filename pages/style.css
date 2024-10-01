@@ -1,0 +1,132 @@
+*{margin: 0;
+    font-family: Fredoka;}
+    
+    .imgfond{
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    
+    }
+    
+    .imgfond>img{
+        position: relative;
+        left: 0;
+        opacity: 0.4;
+        width: 100%;
+        margin-top: 0;
+        height: auto;
+        
+    }
+    
+    nav{
+    
+        background-color: rgb(66, 63, 63);
+        height: 200px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0; 
+        overflow: hidden;
+        flex-direction: row-reverse;
+    
+    }
+    h1{
+        color: beige;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+    
+    }
+    
+    body{
+    
+    background-color: beige;
+    }
+    
+    .parentcarre{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+    
+    }
+    .carres{
+        background-color: rgb(191, 142, 142);
+        width: 90vw;
+        height: auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+        
+    
+    }
+    .carres>p+h2{
+        color: black;
+        margin-left: 10px;
+        position: relative;
+
+    }
+    button{
+        margin-bottom: 30px;
+        color: rgb(0, 0, 0);
+        background-color: beige;
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    
+    .carres>img{
+        position: absolute;
+        width: 50%;
+        margin-bottom: 100px;
+        
+    
+    }
+    
+    .retour{
+        margin-top: 00px;
+        font-size: 40px;
+        color: beige;
+        text-decoration: none;
+        position:absolute;
+        margin-top: -130px;
+        transform: scaleX(-1);
+        margin-left: -80vw;
+    }
+    .carres>div{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        background-color: rgb(118, 56, 56) ;
+        opacity: 0.8;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    @media screen and (min-width: 450px) {
+        footer{
+            height: 100px;
+            justify-content: center;
+        }
+        .imgfond>img{
+            top: -50px;
+            
+        }
+        .retour{
+            margin-left: -95vw;
+        }
+    }
